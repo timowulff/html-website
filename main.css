@@ -1,19 +1,15 @@
 body {
-    font-family: "Nunito", sans-serif;
-    font-weight: 100;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+  background: url('background.png') no-repeat center;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+
+  background-size: cover;
+  /* version standardisée */
 }
 
-a,
-.pagination>li>a,
-.pagination>li>span {
-    color: #333333;
-}
 
-.open>.dropdown-toggle.btn-danger.focus,
-.open>.dropdown-toggle.btn-danger:focus,
-.open>.dropdown-toggle.btn-danger:hover {
-    background-color: #000000;
-}
 
 a {
     border-bottom: 1px solid #b992fd;
@@ -22,8 +18,11 @@ a {
 
 a:hover {
     color: #b992fd;
-    border-bottom: 1px solid #b992fd;
-    text-decoration: none;
+}
+
+a,
+.link {
+    color: #333333;
 }
 
 .vertical-center {
