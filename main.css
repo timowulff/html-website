@@ -12,12 +12,12 @@ body {
 
 
 a {
-    border-bottom: 1px solid #b992fd;
+    border-bottom: 1px solid #767777;
     text-decoration: none;
 }
 
 a:hover {
-    color: #b992fd;
+    color: #767777;
 }
 
 a,
